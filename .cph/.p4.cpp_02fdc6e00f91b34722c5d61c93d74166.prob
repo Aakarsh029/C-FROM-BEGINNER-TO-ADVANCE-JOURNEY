@@ -1,0 +1,1 @@
+{"name":"Local: p4","url":"c:\\visual studio code\\VS\\cpp\\p4.cpp","tests":[{"id":1654011846619,"input":"3\n4\n-1 1 -1 2\n5\n-1 2 -3 2 -1\n3\n2 3 -1","output":"YES\nYES\nNO"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\visual studio code\\VS\\cpp\\p4.cpp","group":"local","local":true}
