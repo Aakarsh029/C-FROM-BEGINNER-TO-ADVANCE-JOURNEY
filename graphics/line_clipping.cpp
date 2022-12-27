@@ -4,12 +4,15 @@
 #include<math.h>
 int main()
 {
+    
 int rcode_begin[4]={0,0,0,0},rcode_end[4]={0,0,0,0},region_code[4];
 int W_xmax,W_ymax,W_xmin,W_ymin,flag=0;
 float slope;
 int x,y,x1,y1,i, xc,yc;
 int gr=DETECT,gm;
 initgraph(&gr,&gm,NULL);
+floodfill(1,1,15);
+setcolor(0);
 printf("\n****** Cohen Sutherlsnd Line Clipping algorithm ***********");
 printf("\n Now, enter XMin, YMin =");
 
